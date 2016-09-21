@@ -1,0 +1,137 @@
+body {
+  background-color: #FCEBF1;
+  font-family: 'David Libre', serif;
+}
+
+header {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+header p{
+  float: left;
+  display: inline-block;
+  width: 113px;
+  background-color: #B0C1C1;
+  color: black;
+  font-family: 'Sacramento', cursive;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+nav {
+  float: right;
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+
+nav a {
+   text-decoration: none;
+  color: black;
+  padding-right: 20px;
+}
+
+div {
+  margin: 10px;
+}
+
+div {
+  background-image: url("http://www.graphicxtras.com/patterns/polka-dot-patterns-triangles.png");
+border-radius: 10px;
+  padding: 20px;
+  overflow: auto;
+}
+
+#welcome iframe{
+  float: left;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+#welcome p {
+  text-align: justify;
+}
+
+#welcome a{
+  float: right;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  padding: 10px 40px 10px 40px;
+  font-size: 20px;
+  border-radius: 20px; 
+}
+
+article {
+  
+  width:1220px;
+   background-color:white;
+  border-radius: 10px;
+  overflow: auto;
+  float: left;
+  margin: 10px;
+  padding: 30px 50px 50px 50px ;
+  }
+
+article a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+}
+
+h2 {
+  color:#0DABA6;
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+}
+
+
+p {
+  color:black;
+}
+
+.food{
+  background-color: #D0F7FA;
+  padding: 10px;
+  text-transform: uppercase;
+  color: black;
+  position: absolute;
+  top:10px;
+  right:0px;
+  z-index:999999999999999999999;
+}
+
+
+
+.outfit{
+  float: left;
+  margin: 10px;
+  position: relative;
+  width: 350px;
+  
+}
+
+.outfit img{
+  max-width:100%;
+}
+
+.outfit:nth-child(1){
+  animation-duration: 1s;
+}
+
+.outfit:nth-child(2){
+  animation-duration: 1s;
+  animation-delay:1s;
+}
+.outfit:nth-child(3){
+  animation-duration: 1s;
+  animation-delay:2s;
+}
+
+
+
